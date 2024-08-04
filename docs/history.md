@@ -996,17 +996,17 @@ To create this now you need to create two themes on your `config.xml` file.
 
 For more information you can check our [Migration Guide](https://guide.meteor.com/2.14-migration.html)
 
-## Breaking Changes
+### Breaking Changes
 
 * `splash-screen` package has removed the `cordova-plugin-splashscreen` dependency. See migration steps for more info.
 
-## Docs
+### Docs
 
 - Added guide on [how to prepare for Meteor 3.0 migration](https://guide.meteor.com/prepare-meteor-3.0).
 - Added guide on [performance improvements](https://guide.meteor.com/performance-improvement).
 - Added FAQ about [Meteor 3](https://guide.meteor.com/3.0-migration).
 
-##  Internal API changes
+###  Internal API changes
 
 * Tool
     - Rename `EACCESS` to `EACCES` to follow the Windows spelling
@@ -1019,7 +1019,7 @@ For more information you can check our [Migration Guide](https://guide.meteor.co
     - Cordova has been updated to v12.0.1 for Android and v7.0.1 for iOS, being able to build to SDK 33.
     - `meteor create` command was re-made to be more interactive
 
-## Meteor Version Release
+### Meteor Version Release
 
 * `accounts-base@2.2.10`
     - Ensure that `onLogin` callback fires properly
@@ -1142,7 +1142,7 @@ For more information you can check our [Migration Guide](https://guide.meteor.co
     - Updated `@types/connect` to v3.4.38
 
 
-## Independent releases
+### Independent releases
 
 * `google-oauth@1.4.4`:
     - Remove logging request/response in google_server
@@ -1163,7 +1163,7 @@ For more information you can check our [Migration Guide](https://guide.meteor.co
     - Update dependencies
     - Deep update dependencies that were highlighted by `npm audit`
 
-## Contributors
+### Contributors
 
 - [@StorytellerCZ](https://github.com/sponsors/StorytellerCZ)
 - [@Grubba27](https://github.com/sponsors/Grubba27)
